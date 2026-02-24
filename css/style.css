@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.page1{
+    display: flex;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-img{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-img img{
+    width: 50%;
+    height: 70%;
+    margin-top: 10px;
+}
+
+.nav-list{
+    height: 100%;
+    width: 60%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.navbar ul li{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.nav-btn{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn button{
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer ;
+}
+
+
+.left{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    background-color: red;
+}
+
+.one{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.cent{
+    width: 75%;
+    height: 60%;
+}
+
+.define{
+    width: 80%;
+    height: 40%;
+}
+
+.define h1{
+    font-size: 100px;
+    background-image: url(/images/highlight.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.one h2{
+    font-size: 70px;
+}
+
+.one p{
+    font-size: 20px;
+    color: honeydew;
+    margin-top: 20px;
+}
+
+.one i{
+    background-color: black;
+    color: red;
+    padding: 20px;
+    border-radius: 50%;
+    width: 15%;
+    font-weight: 900;
+}
+
+.one h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.buttom{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.buttom h3{
+    margin-top: 13px;
+}
+
+.two{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.two h4{
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 150px;
+    
+    
+}
+
+.right{
+    height: 100vh;
+    width: 50%;
+    background-image: url(/images/pexels-folajimi-famosaya-338723203-14016182.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    width: 100%;
+    height: 50%;
+}
+
+.four{
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.f-cent{
+    width: 70%;
+    height: 50%;
+}
+
+.f-cent p{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+#img-txt{
+    background: url(/images/pexels-folajimi-famosaya-338723203-14016182.jpg);
+    background-size: cover;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+}
+
+.top2{
+    width: 100%;
+    height: 30%;
+}
+
+.one2{
+    width: 100%;
+    height: 30%;
+}
+
+.one2 p{
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+.two2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.two2 img{
+    width: 11%;
+    height: 30%;
+}
+
+.middle2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.left2{
+    width: 50%;
+    height: 100%;
+}
+
+.left2 p{
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.right2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right2 button{
+    width: 40%;
+    height: 90%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer ;
+}
+
+.right2 button h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+.ptxt{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptxt p{
+    width: 65%;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+}
+
+.bottom2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom2 p{
+     font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+  width: 60%;
+}
+
+.i{
+    width : 30%;
+    height: 80%;
+    margin-left: 40px;
+}
+.ii{
+    width : 30%;
+    height: 80%;
+}
+.iii{
+    width : 30%;
+    height: 80%;
+}
+
+.page3{
+    background-color: #1E1D1D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pg3-1 p{
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 100px;
+    margin-left: 70px;
+    width: 60%;
+    padding-bottom: 50px;
+}
+
+.pg3-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    border-top: 1px solid rgb(54, 54, 54);
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.pg3-2 h1{
+    width: 10%;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.pg3-2 h2{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.pg3-2 p{
+    width: 40%;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+}
+
+.pg3-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.pg3-3 h1{
+    width: 10%;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.pg3-3 h2{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.pg3-3 p{
+    width: 40%;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+}
+
+.pg3-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.pg3-4 h1{
+    width: 10%;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.pg3-4 h2{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.pg3-4 p{
+    width: 40%;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+}
+
+.pg3-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.pg3-5 h1{
+    width: 10%;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.pg3-5 h2{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.pg3-5 p{
+    width: 40%;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: grey;
+}
+
+.pg3-6 p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+     font-size: 20px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pg3-6 a{
+     font-size: 20px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 62, 62);
+   text-decoration: 1px solid rgb(255, 62, 62) underline;
+}
